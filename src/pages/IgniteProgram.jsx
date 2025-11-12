@@ -46,11 +46,13 @@ const IgniteProgram = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Launch Your Career with Fynryx 12-Month Success Program! <span className="text-orange-500">🔥</span>
+            
+            Ignite Program <span className="text-orange-500">🔥</span>
+       <span className="text-orange-500">🔥</span>
           </h1>
           <div className="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-semibold">
-            4 Months of Intense Training + 8 Months of Paid Experience
+                 Launch Your Career with Fynryx 12-Month Success Program! 4 Months of Intense Training + 8 Months of Paid Experience
           </p>
         </div>
 
