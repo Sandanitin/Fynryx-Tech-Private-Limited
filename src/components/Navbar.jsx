@@ -20,9 +20,12 @@ export default function Navbar() {
     <nav className="bg-white text-black shadow-md fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-xl sm:text-2xl font-bold tracking-wide">
-          <span className="text-black">Fynryx</span>
-          <span className="text-gray-600">Tech</span>
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/LOGO.jpg" 
+            alt="Fynryx Tech Logo" 
+            className="h-10 w-auto md:h-12"
+          />
         </Link>
 
         {/* Desktop Menu */}

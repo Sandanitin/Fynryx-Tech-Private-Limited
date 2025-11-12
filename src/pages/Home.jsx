@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
           <img
-            src="/heroimage.jpg"
+            src="/HEROSECTION.jpg"
             alt="Learning Hero"
             className="rounded-2xl shadow-lg w-full max-w-md md:max-w-none md:w-4/5"
           />

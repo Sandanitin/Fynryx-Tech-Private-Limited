@@ -7,10 +7,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
         {/* Brand Section */}
         <div className="sm:col-span-2 md:col-span-1">
-          <h2 className="text-xl sm:text-2xl font-bold mb-3">
-            <span className="text-white">Fynryx</span>
-            <span className="text-blue-200">Tech</span>
-          </h2>
+          <Link to="/" className="block mb-3">
+            <img 
+              src="/LOGO.jpg" 
+              alt="Fynryx Tech Logo" 
+              className="h-12 w-auto"
+            />
+          </Link>
           <p className="text-blue-100 text-sm">
             Empowering learners to achieve their dreams with cutting-edge technology skills and expert guidance.
           </p>

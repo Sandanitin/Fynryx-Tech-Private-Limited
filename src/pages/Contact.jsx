@@ -14,8 +14,20 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert("Thank you for contacting us! We’ll get back to you soon.");
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject);
+    const body = encodeURIComponent(`Name: ${formData.name}
+Email: ${formData.email}
+
+Message:
+${formData.message}`);
+    const mailtoLink = `mailto:support@fynryx.in?subject=${subject}&body=${body}`;
+    
+    // Open default email client
+    window.location.href = mailtoLink;
+    
+    // Reset form
     setFormData({ name: "", email: "", subject: "", message: "" });
   };
 
