@@ -7,10 +7,7 @@ const About = () => {
       <section className="text-center mb-20">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">About Us</h1>
         <p className="text-gray-600 max-w-3xl mx-auto text-lg">
-          We are dedicated to empowering learners with industry-driven skills
-          that prepare them for the future of work. Through expert mentorship,
-          hands-on learning, and real-world projects, we help students turn
-          potential into success.
+          We empower learners with industry-relevant skills that prepare them for the future of work. Through expert mentorship, hands-on training, and practical projects, we help students turn their potential into lasting success.
         </p>
       </section>
 
@@ -24,9 +21,7 @@ const About = () => {
           </div>
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Mission</h2>
           <p className="text-gray-700 text-lg">
-            To bridge the gap between education and industry by providing
-            high-quality, practical training that enables learners to become
-            confident professionals in technology and innovation.
+            To close the gap between education and industry by offering high-quality, practical training that builds confidence and expertise in technology and innovation.
           </p>
         </div>
 
@@ -39,9 +34,7 @@ const About = () => {
           </div>
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Vision</h2>
           <p className="text-gray-700 text-lg">
-            To create a global learning ecosystem that inspires curiosity,
-            creativity, and career growth — empowering the next generation of
-            innovators and leaders.
+            To build a dynamic learning community that sparks curiosity, creativity, and career advancement, shaping the next generation of innovators and leaders.
           </p>
         </div>
       </section>
@@ -51,7 +44,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Why Choose Us?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            We provide industry-relevant training programs designed to help you succeed in your career
+            We offer industry-aligned training programs designed to help you gain practical skills and achieve lasting career success.
           </p>
         </div>
 
@@ -62,10 +55,9 @@ const About = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Career-Oriented Learning</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Career-Focused Learning</h3>
             <p className="text-gray-700">
-              All our programs are designed to meet current industry demands and
-              prepare you for in-demand job roles.
+              Our programs are built around real-world industry demands, helping you gain practical skills that drive career growth.
             </p>
           </div>
 
@@ -77,21 +69,19 @@ const About = () => {
             </div>
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Expert Mentors</h3>
             <p className="text-gray-700">
-              Learn from mentors with real-world experience and industry
-              exposure who guide you personally.
+              Gain insights and guidance from seasoned industry professionals who support you at every step of your learning journey.
             </p>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Hands-on Projects</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Certification</h3>
             <p className="text-gray-700">
-              Apply what you learn by building real projects and case studies
-              that make your resume stand out.
+              Earn certificates that are respected and valued by leading companies across industries.
             </p>
           </div>
         </div>
