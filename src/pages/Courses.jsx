@@ -54,7 +54,7 @@ export default function Courses() {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-white text-black py-20 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-br from-brand-50 to-white text-black py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
@@ -81,7 +81,7 @@ export default function Courses() {
                     alt={course.name}
                     className="w-full h-48 object-cover"
                   />
-                  <div className={`absolute top-4 right-4 ${isPopular ? 'bg-orange-500' : 'bg-blue-600'} text-white text-xs font-bold px-3 py-1 rounded-full`}>
+                  <div className={`absolute top-4 right-4 ${isPopular ? 'bg-orange-500' : 'bg-brand'} text-white text-xs font-bold px-3 py-1 rounded-full`}>
                     {isPopular ? "Popular" : "New"}
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export default function Courses() {
                     </a>
                     <Link 
                       to="/contact" 
-                      className="flex-1 text-center bg-blue-600 text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-700 transition duration-300 shadow hover:shadow-md"
+                      className="flex-1 text-center bg-brand text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-brand-light transition duration-300 shadow hover:shadow-md"
                     >
                       Enquire Now
                     </Link>

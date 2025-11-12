@@ -8,14 +8,14 @@ export default function Home() {
       <section className="relative flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <div className="md:w-1/2 space-y-4 sm:space-y-6">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Ignite Your Future with <span className="text-blue-600">Skill-Based Learning</span>
+            Ignite Your Future with <span className="text-brand">Skill-Based Learning</span>
           </h1>
           <p className="text-gray-700 text-base sm:text-lg">
             Shape Your Future with Practical Skills. Learn what employers need through expert-led, hands-on programs.
           </p>
           <Link
             to="/courses"
-            className="inline-block bg-blue-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg font-medium hover:bg-blue-700 transition"
+            className="inline-block bg-brand text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg font-medium hover:bg-brand-light transition"
           >
             Explore Courses
           </Link>
@@ -39,7 +39,7 @@ export default function Home() {
           </p>
           <Link 
             to="/courses"
-            className="inline-block bg-blue-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg font-medium hover:bg-blue-700 transition"
+            className="inline-block bg-brand text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg font-medium hover:bg-brand-light transition"
           >
             View All Courses
           </Link>
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="grid gap-6 sm:gap-8 md:grid-cols-3">
           <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 border border-gray-100">
             <div className="mb-4">
-              <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">Data Science</span>
+              <span className="inline-block bg-brand-100 text-brand-dark text-xs px-2 py-1 rounded-full">Data Science</span>
             </div>
             <h3 className="text-2xl font-bold mb-3">Data Science & AI</h3>
             <ul className="space-y-2 mb-4">
@@ -81,7 +81,7 @@ export default function Home() {
                 </svg>
                 WhatsApp
               </a>
-              <Link to="/contact" className="flex-1 text-center bg-blue-600 text-white border border-blue-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition">
+              <Link to="/contact" className="flex-1 text-center bg-brand text-white border border-brand px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-light transition">
                 Enquire Now
               </Link>
             </div>
@@ -122,7 +122,7 @@ export default function Home() {
                 </svg>
                 WhatsApp
               </a>
-              <Link to="/contact" className="flex-1 text-center bg-blue-600 text-white border border-blue-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition">
+              <Link to="/contact" className="flex-1 text-center bg-brand text-white border border-brand px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-light transition">
                 Enquire Now
               </Link>
             </div>
@@ -163,7 +163,7 @@ export default function Home() {
                 </svg>
                 WhatsApp
               </a>
-              <Link to="/contact" className="flex-1 text-center bg-blue-600 text-white border border-blue-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition">
+              <Link to="/contact" className="flex-1 text-center bg-brand text-white border border-brand px-4 py-2 rounded-lg text-sm font-medium hover:bg-brand-light transition">
                 Enquire Now
               </Link>
             </div>
@@ -182,8 +182,8 @@ export default function Home() {
           </div>
           <div className="grid gap-8 md:grid-cols-3">
             <div className="bg-white border rounded-2xl shadow p-6 hover:shadow-lg transition transform hover:-translate-y-1">
-              <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
@@ -194,8 +194,8 @@ export default function Home() {
             </div>
 
             <div className="bg-white border rounded-2xl shadow p-6 hover:shadow-lg transition transform hover:-translate-y-1">
-              <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
@@ -206,8 +206,8 @@ export default function Home() {
             </div>
 
             <div className="bg-white border rounded-2xl shadow p-6 hover:shadow-lg transition transform hover:-translate-y-1">
-              <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>

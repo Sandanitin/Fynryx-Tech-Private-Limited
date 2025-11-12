@@ -42,13 +42,11 @@ const ignitePrograms = [
 
 const IgniteProgram = () => {
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-white text-black py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-br from-brand-50 to-white text-black py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            
             Ignite Program <span className="text-orange-500">🔥</span>
-       <span className="text-orange-500">🔥</span>
           </h1>
           <div className="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-semibold">
@@ -78,7 +76,7 @@ const IgniteProgram = () => {
                 <div className="flex flex-wrap gap-3 mt-auto">
                   <Link 
                     to="/contact" 
-                    className="flex-1 text-center bg-blue-600 text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-700 transition duration-300 shadow hover:shadow-md"
+                    className="flex-1 text-center bg-brand text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-brand-light transition duration-300 shadow hover:shadow-md"
                   >
                     Enquire Now
                   </Link>

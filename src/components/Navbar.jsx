@@ -34,7 +34,7 @@ export default function Navbar() {
             <li key={link.name}>
               <Link
                 to={link.path}
-                className={`${location.pathname === link.path ? 'text-blue-600 font-semibold relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-0.5 after:bg-blue-600' : 'hover:text-blue-600 transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full'}`}
+                className={`${location.pathname === link.path ? 'text-brand font-semibold relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-0.5 after:bg-brand' : 'hover:text-brand transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-brand after:transition-all after:duration-300 hover:after:w-full'}`}
               >
                 {link.name}
               </Link>
@@ -59,7 +59,7 @@ export default function Navbar() {
               <li key={link.name} className="w-full py-1">
                 <Link
                   to={link.path}
-                  className={`${location.pathname === link.path ? 'text-blue-600 font-semibold border-l-4 border-blue-600 pl-3' : 'hover:text-gray-500 pl-3'} transition-colors duration-200 block py-2`}
+                  className={`${location.pathname === link.path ? 'text-brand font-semibold border-l-4 border-brand pl-3' : 'hover:text-gray-500 pl-3'} transition-colors duration-200 block py-2`}
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.name}
