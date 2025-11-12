@@ -46,12 +46,11 @@ const IgniteProgram = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Ignite Programs <span className="text-orange-500">🔥</span>
+            Launch Your Career with Fynryx 12-Month Success Program! <span className="text-orange-500">🔥</span>
           </h1>
           <div className="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
-          <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            Our Ignite Programs are designed for fast-tracked career growth — guided
-            by mentors, structured learning, and real-world projects.
+          <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-semibold">
+            4 Months of Intense Training + 8 Months of Paid Experience
           </p>
         </div>
 
@@ -59,7 +58,7 @@ const IgniteProgram = () => {
           {ignitePrograms.map((program, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 border border-gray-100"
+              className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 border border-gray-100 flex flex-col h-full"
             >
               <div className="relative">
                 <img
@@ -71,10 +70,10 @@ const IgniteProgram = () => {
                   Popular
                 </div>
               </div>
-              <div className="p-6">
-                <h2 className="text-xl font-bold mb-3 text-gray-900">{program.title}</h2>
-                <p className="text-gray-600 text-sm mb-5 leading-relaxed">{program.description}</p>
-                <div className="flex flex-wrap gap-3">
+              <div className="p-6 flex flex-col flex-grow">
+                <h2 className="text-xl font-bold mb-3 text-gray-900 min-h-[3rem]">{program.title}</h2>
+                <p className="text-gray-600 text-sm mb-5 leading-relaxed flex-grow">{program.description}</p>
+                <div className="flex flex-wrap gap-3 mt-auto">
                   <Link 
                     to="/contact" 
                     className="flex-1 text-center bg-blue-600 text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-700 transition duration-300 shadow hover:shadow-md"

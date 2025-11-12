@@ -178,7 +178,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Why Choose Us</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We provide industry-relevant training programs designed to help you succeed in your career
+              We offer industry-aligned training programs designed to help you gain practical skills and achieve lasting career success.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
@@ -190,7 +190,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">Career-Focused Learning</h3>
               <p className="text-gray-700">
-                Our programs are designed with real-world industry needs in mind to help you grow your career.
+                Our programs are built around real-world industry demands, helping you gain practical skills that drive career growth.
               </p>
             </div>
 
@@ -202,7 +202,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">Expert Mentors</h3>
               <p className="text-gray-700">
-                Learn directly from industry experts and experienced trainers who guide you every step.
+                Gain insights and guidance from seasoned industry professionals who support you at every step of your learning journey.
               </p>
             </div>
 
@@ -212,109 +212,11 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Globally Recognized Certification</h3>
+              <h3 className="text-xl font-bold mb-3">Certification</h3>
               <p className="text-gray-700">
-                Earn certificates that are valued and recognized by top companies worldwide.
+                Earn certificates that are respected and valued by leading companies across industries.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="max-w-7xl mx-auto px-6 py-16">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">What Our Students Say</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Hear from our successful alumni who have transformed their careers with our programs
-          </p>
-        </div>
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
-            <div className="flex items-center mb-4">
-              <div className="text-yellow-400 flex">
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-              </div>
-            </div>
-            <p className="text-gray-700 italic mb-4">
-              "This platform transformed my career! The mentors were supportive and the content was top-notch. I landed a job at a top tech company within 3 months of completing the course."
-            </p>
-            <div className="mt-4">
-                <h4 className="font-bold">Priya Sharma</h4>
-                <p className="text-gray-600 text-sm">Data Scientist at Google</p>
-              </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
-            <div className="flex items-center mb-4">
-              <div className="text-yellow-400 flex">
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-              </div>
-            </div>
-            <p className="text-gray-700 italic mb-4">
-              "I got my first job after completing the Full Stack Development course here. The curriculum was comprehensive and the projects were exactly what I needed to showcase in interviews."
-            </p>
-            <div className="mt-4">
-                <h4 className="font-bold">Rohan Patel</h4>
-                <p className="text-gray-600 text-sm">Software Engineer at Microsoft</p>
-              </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
-            <div className="flex items-center mb-4">
-              <div className="text-yellow-400 flex">
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-              </div>
-            </div>
-            <p className="text-gray-700 italic mb-4">
-              "The certification helped me stand out during interviews. The career services team provided excellent support with resume building and interview preparation. Highly recommended!"
-            </p>
-            <div className="mt-4">
-                <h4 className="font-bold">Aisha Khan</h4>
-                <p className="text-gray-600 text-sm">UI/UX Designer at Apple</p>
-              </div>
           </div>
         </div>
       </section>
