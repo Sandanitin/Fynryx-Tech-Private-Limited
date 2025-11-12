@@ -11,8 +11,7 @@ export default function Home() {
             Ignite Your Future with <span className="text-blue-600">Skill-Based Learning</span>
           </h1>
           <p className="text-gray-700 text-base sm:text-lg">
-            Learn the most in-demand skills and boost your career with
-            expert-led programs designed for real-world success.
+            Shape Your Future with Practical Skills. Learn what employers need through expert-led, hands-on programs.
           </p>
           <Link
             to="/courses"
