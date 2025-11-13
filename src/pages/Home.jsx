@@ -71,7 +71,7 @@ export default function Home() {
             </div>
             <div className="flex gap-3 mt-6">
               <a 
-                href="https://wa.me/916303336490?text=Hello,%20I'm%20interested%20in%20the%20Data%20Science%20&%20AI%20course!" 
+                href="https://wa.me/917416659911?text=Hello,%20I'm%20interested%20in%20the%20Data%20Science%20&%20AI%20course!" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex-1 text-center bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition flex items-center justify-center"
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
             <div className="flex gap-3 mt-6">
               <a 
-                href="https://wa.me/916303336490?text=Hello,%20I'm%20interested%20in%20the%20Full%20Stack%20Development%20course!" 
+                href="https://wa.me/+917416646611?text=Hello,%20I'm%20interested%20in%20the%20Full%20Stack%20Development%20course!" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex-1 text-center bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition flex items-center justify-center"
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
             <div className="flex gap-3 mt-6">
               <a 
-                href="https://wa.me/916303336490?text=Hello,%20I'm%20interested%20in%20the%20UI/UX%20Design%20Mastery%20course!" 
+                href="https://wa.me/+917416646611?text=Hello,%20I'm%20interested%20in%20the%20UI/UX%20Design%20Mastery%20course!" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex-1 text-center bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition flex items-center justify-center"

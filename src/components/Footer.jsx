@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="sm:col-span-2 md:col-span-1">
           <Link to="/" className="block mb-3">
             <img 
-              src="/LOGO.jpg" 
+              src="/logo.png" 
               alt="Fynryx Tech Logo" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </Link>
           <p className="text-brand-100 text-sm">

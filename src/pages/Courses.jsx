@@ -90,7 +90,7 @@ export default function Courses() {
                   <p className="text-gray-600 text-sm mb-5 leading-relaxed flex-grow">{course.description}</p>
                   <div className="flex flex-wrap gap-3 mt-auto">
                     <a 
-                      href={`https://wa.me/916303336490?text=Hello,%20I'm%20interested%20in%20the%20${encodeURIComponent(course.name)}%20course!`} 
+                      href={`https://wa.me/${index < 4 ? '917416659911' : '+917416646611'}?text=Hello,%20I'm%20interested%20in%20the%20${encodeURIComponent(course.name)}%20course!`} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="flex-1 text-center bg-green-500 text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-green-600 transition duration-300 shadow hover:shadow-md flex items-center justify-center"

@@ -99,15 +99,59 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team or Image Section */}
-      <section className="bg-white rounded-2xl shadow-lg p-12 text-center">
-        <h2 className="text-3xl font-bold mb-4 text-gray-900">Ready to take the next step in your career?</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto text-lg mb-8">
+      {/* Connect with Us Section */}
+      <section className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl shadow-xl p-8 md:p-12 mb-12">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Connect with Us</h2>
+          <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+            Scan the QR code to open our Google Form and submit your contact information.
+          </p>
+          
+          <div className="flex flex-col items-center justify-center">
+            <div className="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-2 border-indigo-100">
+              <div className="relative inline-block">
+                <img 
+                  src="/qrcode_docs.google.com[1].png" 
+                  alt="Google Form QR Code" 
+                  className="w-52 h-52 md:w-64 md:h-64 object-contain"
+                />
+                <div className="absolute -top-3 -right-3 bg-brand text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 001 1zm0 5h1.586a1 1 0 01.707.293l.707.707a1 1 0 001.414 0l.707-.707a1 1 0 01.707-.293H19a1 1 0 001-1v-2a1 1 0 00-1-1h-2a1 1 0 00-1 1v.01M9 20h.01M15 20h.01M20 9h.01M4 15h.01" />
+                  </svg>
+                </div>
+              </div>
+              <p className="mt-6 text-gray-800 font-bold text-xl">Google Form QR Code</p>
+              <p className="mt-2 text-gray-600">Scan to connect with us</p>
+            </div>
+            
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="bg-white rounded-xl px-6 py-3 shadow-md flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-brand mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="text-gray-700 font-medium">Quick & Easy Process</span>
+              </div>
+              <div className="bg-white rounded-xl px-6 py-3 shadow-md flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-brand mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                <span className="text-gray-700 font-medium">Secure Submission</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Ready to take the next step Section */}
+      <section className="bg-white rounded-2xl shadow-lg p-8 md:p-12 text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Ready to take the next step in your career?</h2>
+        <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
           Explore our wide range of professional training programs today.
         </p>
         <a 
           href="/courses" 
-          className="inline-block bg-brand text-white px-8 py-4 rounded-lg font-medium hover:bg-brand-light transition-all duration-300 transform hover:-translate-y-0.5 shadow-md hover:shadow-lg"
+          className="inline-block bg-brand text-white px-8 py-4 rounded-lg font-medium hover:bg-brand-light transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg text-lg"
         >
           Browse Courses
         </a>

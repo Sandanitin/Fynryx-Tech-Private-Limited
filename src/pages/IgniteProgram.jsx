@@ -50,7 +50,8 @@ const IgniteProgram = () => {
           </h1>
           <div className="w-24 h-1 bg-orange-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-semibold">
-                 Launch Your Career with Fynryx 12-Month Success Program! 4 Months of Intense Training + 8 Months of Paid Experience
+            Launch Your Career with Fynryx 12-Month Success Program!<br />
+            4 Months of Intense Training + 8 Months of Paid Experience
           </p>
         </div>
 
@@ -81,7 +82,7 @@ const IgniteProgram = () => {
                     Enquire Now
                   </Link>
                   <a 
-                    href={`https://wa.me/916303336490?text=Hello,%20I'm%20interested%20in%20the%20${encodeURIComponent(program.title)}%20Ignite%20Program!`} 
+                    href={`https://wa.me/${index < 4 ? '917416659911' : '+917416646611'}?text=Hello,%20I'm%20interested%20in%20the%20${encodeURIComponent(program.title)}%20Ignite%20Program!`} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex-1 text-center bg-green-500 text-white px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-green-600 transition duration-300 shadow hover:shadow-md flex items-center justify-center"

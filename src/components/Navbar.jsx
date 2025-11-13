@@ -22,7 +22,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img 
-            src="/LOGO.jpg" 
+            src="/logo.png" 
             alt="Fynryx Tech Logo" 
             className="h-10 w-auto md:h-12"
           />
